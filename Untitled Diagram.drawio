@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T09:22:49.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="5yqTxJcthPnF-19Z8BhZ" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-29T10:04:33.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="gh5SbIK5BiNxiSe1Dt9R" version="17.1.3" type="github" pages="3">
   <diagram id="dEH-hQJbf2kBLrELikxC" name="Page-1">
     <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ivjS-mDJTHe7fm4Ek6cG" name="JDBC">
-    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-2ELsdU1Q9edbkPid1lJ-0" />
         <mxCell id="-2ELsdU1Q9edbkPid1lJ-1" parent="-2ELsdU1Q9edbkPid1lJ-0" />
@@ -183,7 +183,51 @@
           <mxGeometry x="110" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-2ELsdU1Q9edbkPid1lJ-5" value="Type 4 Driver&lt;br&gt;(Thin Driver)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
-          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-6" target="-2ELsdU1Q9edbkPid1lJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-6" target="-2ELsdU1Q9edbkPid1lJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-6" value="Connection Object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="220" y="410" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-7" target="-2ELsdU1Q9edbkPid1lJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-7" target="-2ELsdU1Q9edbkPid1lJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-7" value="Create the statement Object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="220" y="530" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-9" target="-2ELsdU1Q9edbkPid1lJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-9" value="ResultSet(in case of DQL)select statement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="570" y="650" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-11" value="result status(in case of DML)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="-130" y="650" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-2ELsdU1Q9edbkPid1lJ-1" source="-2ELsdU1Q9edbkPid1lJ-13" target="-2ELsdU1Q9edbkPid1lJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-13" value="DriverManager class" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="220" y="340" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-15" value="Load the Driver but now a days from java8 onwards loading driver is optional thing since it is handled by JVM internally)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="220" y="220" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-2ELsdU1Q9edbkPid1lJ-18" value="close the connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-2ELsdU1Q9edbkPid1lJ-1">
+          <mxGeometry x="250" y="770" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
